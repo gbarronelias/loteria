@@ -1,4 +1,6 @@
-// Variables
+// ==========================================
+// VARIABLES ORIGINALES
+// ==========================================
 $bg-color: #f4f7f6;
 $text-color: #333;
 $primary-color: #2ecc71;
@@ -6,6 +8,14 @@ $primary-hover: #27ae60;
 $border-color: #2c3e50;
 $cell-bg: #ecf0f1;
 $cell-border: #bdc3c7;
+
+// ==========================================
+// NUEVAS VARIABLES (Estilo Lotería Tradicional)
+// ==========================================
+$bg-chroma: #00ff00;          // Verde croma por si descargas las tablas completas
+$card-frame-color: #fcfbf7;   // Blanco ostión para el marco grueso tradicional
+$text-box-bg: #ffffff;        // Blanco puro para la caja del texto inferior
+$line-color: #1a1a1a;         // Bordes negros marcados estilo folk-art
 
 // Estilos Base
 body {
@@ -46,49 +56,63 @@ button {
     gap: 20px;
     margin-top: 20px;
     justify-content: center;
+    background-color: $bg-chroma; // Fondo croma integrado para capturas limpias de los tableros
+    padding: 20px;
+    border-radius: 12px;
 }
 
 // Estructura de cada Tabla de Lotería
 .loteria-tabla {
-    border: 4px solid $border-color;
+    border: 4px solid $line-color; // Línea exterior más marcada y tradicional
     border-radius: 8px;
     background-color: #fff;
-    padding: 10px;
+    padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 
     h3 {
         text-align: center;
-        margin: 0 0 10px 0;
+        margin: 0 0 15px 0;
         color: $border-color;
+        font-family: 'Arial Black', sans-serif;
+        text-transform: uppercase;
     }
 }
 
-// Grid de 3x3
-.grid-3x3 {
+// Grid de 4x4
+// Filas en proporción exacta 2:3 respecto al ancho de cada carta
+.grid-4x4 {
     display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
-    gap: 5px;
+    grid-template-columns: repeat(4, 85px);
+    grid-template-rows: repeat(4, 127.5px);
+    gap: 4px;
 }
 
-// Celdas individuales
-.celda {
-    border: 1px solid $cell-border;
-    background-color: $cell-bg;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: bold;
-    font-size: 12px;
-    padding: 5px;
-    word-break: break-word;
-    border-radius: 4px;
+.grid-4x4 img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: contain;
+    display: block;
+}
 
-    img {
-        max-width: 100%;
-        max-height: 65px;
-        object-fit: contain;
+.grid-4x4 img:not([src]) {
+    visibility: hidden;
+}
+
+// Responsividad
+@media (max-width: 400px) {
+    .loteria-tabla {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .grid-4x4 {
+        width: 100%;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-rows: none;
+    }
+
+    .grid-4x4 img {
+        height: auto;
     }
 }

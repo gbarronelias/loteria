@@ -1,30 +1,45 @@
 // 1. Arreglo base de palabras e imágenes (mínimo 20-25 para dar buena variedad)
 const misPalabras = [
-    { nombre: "Jira", imagen: "Jira.png" },
-    { nombre: "Holding", imagen: "Holding.png" },
-    { nombre: "Documentación", imagen: "Documentacion.png" },
-    { nombre: "Plataforma", imagen: "Plataforma.png" },
-    { nombre: "Bug", imagen: "Bug.png" },
-    { nombre: "ChatBot", imagen: "ChatBot.png" },
-    { nombre: "Blue", imagen: "Blue.png" },
-    { nombre: "ProductOwner", imagen: "ProductOwner.png" },
-    { nombre: "ScrumMaster", imagen: "ScrumMaster.png" },
-    { nombre: "Andromeda", imagen: "Andromeda.png" },
-    { nombre: "Review", imagen: "Review.png" },
-    { nombre: "Daily", imagen: "Daily.png" },
-    { nombre: "Deuda Técnica", imagen: "Deuda_Tecnica.png" },
-    { nombre: "Desarrollador", imagen: "Desarrollador.png" },
-    { nombre: "Derivaciones", imagen: "Derivaciones.png" },
-    { nombre: "TyC", imagen: "TyC.png" },
-    { nombre: "Instalación", imagen: "Instalacion.png" },
-    { nombre: "Despliegue", imagen: "Despliegue.png" },
-    { nombre: "Producción", imagen: "Produccion.png" },
-    { nombre: "Program Manager", imagen: "Program_Manager.png" },
-    { nombre: "Devs Nativos", imagen: "Devs_Nativos.png" },
-    { nombre: "App Owner", imagen: "App_Owner.png" },
-    { nombre: "Release Manager", imagen: "Release_Manager.png" },
-    { nombre: "Avatar", imagen: "Avatar.png" },
-    { nombre: "Productos", imagen: "Productos.png" }
+    { nombre: "El Jira", imagen: "jira.png" },
+    { nombre: "Holding", imagen: "holding.png" },
+    { nombre: "La Documentación", imagen: "documentación.png" },
+    { nombre: "La Plataforma", imagen: "plataforma.png" },
+    { nombre: "El Bug", imagen: "bug.png" },
+    { nombre: "El ChatBot", imagen: null },
+    { nombre: "Blue", imagen: null },
+    { nombre: "El ProductOwner", imagen: "productowner.png" },
+    { nombre: "El ScrumMaster", imagen: "scrum_master.webp" },
+    { nombre: "El Andromeda", imagen: "andromeda.png" },
+    { nombre: "La Review", imagen: "review.png" },
+    { nombre: "La Daily", imagen: "daily.png" },
+    { nombre: "La Deuda Técnica", imagen: "dt.png" },
+    { nombre: "El Desarrollador", imagen: "desarrollador.png" },
+    { nombre: "Las Derivaciones", imagen: "derivaciones.png" },
+    { nombre: "Los TyC", imagen: "tyc.png" },
+    { nombre: "La Instalación", imagen: "instalacion.png" },
+    { nombre: "El Despliegue", imagen: "despliegue.png" },
+    { nombre: "Producción", imagen: "produccion.png" },
+    { nombre: "La Program Manager", imagen: "program_manager.webp" },
+    { nombre: "El App Owner", imagen: "appowner.png" },
+    { nombre: "El Release Manager", imagen: "releasemanager.png" },
+    { nombre: "El Avatar", imagen: null },
+    { nombre: "El What if", imagen: "whatif.png" },
+    { nombre: "La PR", imagen: "pr.png" },
+    { nombre: "El Rapid prototyping", imagen: "rappidprototyping.png" },
+    { nombre: "Conversa", imagen: "conversa.png" },
+    { nombre: "OpenAI", imagen: "openai.png" },
+    { nombre: "El modelo", imagen: "modelo.png" },
+    { nombre: "El figma", imagen: "figma.png" },
+    { nombre: "El becario ", imagen: "becario.png" },
+    { nombre: "El Team UX ", imagen: "teamUX.png" },
+    { nombre: "La Usabilidad ", imagen: "usabilidad.png" },
+    { nombre: "El Funcional ", imagen: "funcional.png" },
+    { nombre: "La Personalidad ", imagen: "personalidad.png" },
+    { nombre: "Blue Voz ", imagen: null },
+    { nombre: "El Product Designer ", imagen: "productDesigner.png" },
+    { nombre: "El Monolito ", imagen: "monolito.png" },
+    { nombre: "El Warrom ", imagen: "warrom.png" },
+    { nombre: "Las Entradillas ", imagen: null },
 ];
 console.log(misPalabras.length);
 
@@ -38,21 +53,21 @@ function mezclarBaraja(arreglo) {
     return copia;
 }
 
-// 3. Función para generar N cantidad de tableros únicos de 3x3
+// 3. Función para generar N cantidad de tableros únicos de 4x4
 function generarTablerosUnicos(baraja, cantidadTableros = 10) {
     const tablerosFinales = [];
     const combinacionesRegistradas = new Set();
 
     while (tablerosFinales.length < cantidadTableros) {
         const barajaMezclada = mezclarBaraja(baraja);
-        const seleccion9 = barajaMezclada.slice(0, 9);
+        const seleccion16 = barajaMezclada.slice(0, 16);
 
         // Identificador único ordenado para evitar los mismos tableros en diferente orden
-        const idUnico = seleccion9.map(({ nombre }) => nombre).sort().join("|");
+        const idUnico = seleccion16.map(({ nombre }) => nombre).sort().join("|");
 
         if (!combinacionesRegistradas.has(idUnico)) {
             combinacionesRegistradas.add(idUnico);
-            tablerosFinales.push(seleccion9);
+            tablerosFinales.push(seleccion16);
         }
     }
     return tablerosFinales;
@@ -72,22 +87,15 @@ function renderizarTableros(tableros) {
         tablaDiv.appendChild(titulo);
 
         const gridDiv = document.createElement("div");
-        gridDiv.className = "grid-3x3";
+        gridDiv.className = "grid-4x4";
 
         tablero.forEach(({ nombre, imagen }) => {
-            const celda = document.createElement("div");
-            celda.className = "celda";
-
             const img = document.createElement("img");
-            img.src = `src/img/${imagen}`;
             img.alt = nombre;
-
-            const etiqueta = document.createElement("span");
-            etiqueta.innerText = nombre;
-
-            celda.appendChild(img);
-            celda.appendChild(etiqueta);
-            gridDiv.appendChild(celda);
+            if (imagen) {
+                img.src = `src/img/${imagen}`;
+            }
+            gridDiv.appendChild(img);
         });
 
         tablaDiv.appendChild(gridDiv);
