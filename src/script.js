@@ -2,7 +2,7 @@
 const misPalabras = [
     { nombre: "El Jira", imagen: "jira.png" },
     { nombre: "Holding", imagen: "holding.png" },
-    { nombre: "La Documentación", imagen: "documentación.png" },
+    { nombre: "La Documentación", imagen: "documentacion.png" },
     { nombre: "La Plataforma", imagen: "plataforma.png" },
     { nombre: "El Bug", imagen: "bug.png" },
     { nombre: "El ChatBot", imagen: "chatbot.png" },
@@ -148,7 +148,7 @@ const tablerosGenerados = [
         },
         {
             "nombre": "La Documentación",
-            "imagen": "documentación.png"
+            "imagen": "documentacion.png"
         },
         {
             "nombre": "El Funcional ",
@@ -376,7 +376,7 @@ const tablerosGenerados = [
     [
         {
             "nombre": "La Documentación",
-            "imagen": "documentación.png"
+            "imagen": "documentacion.png"
         },
         {
             "nombre": "La Usabilidad ",
@@ -568,7 +568,7 @@ const tablerosGenerados = [
         },
         {
             "nombre": "La Documentación",
-            "imagen": "documentación.png"
+            "imagen": "documentacion.png"
         }
     ],
     [
