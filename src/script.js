@@ -45,78 +45,12 @@ const misPalabras = [
 const tablerosGenerados = [
     [
         {
-            "nombre": "El figma",
-            "imagen": "figma.png"
-        },
-        {
-            "nombre": "El Desarrollador",
-            "imagen": "desarrollador.png"
-        },
-        {
-            "nombre": "El What if",
-            "imagen": "whatif.png"
-        },
-        {
-            "nombre": "El Despliegue",
-            "imagen": "despliegue.png"
-        },
-        {
-            "nombre": "La Plataforma",
-            "imagen": "plataforma.png"
-        },
-        {
-            "nombre": "El modelo",
-            "imagen": "modelo.png"
-        },
-        {
-            "nombre": "El ChatBot",
-            "imagen": "chatbot.png"
-        },
-        {
-            "nombre": "El Funcional ",
-            "imagen": "funcional.png"
-        },
-        {
-            "nombre": "El ScrumMaster",
-            "imagen": "scrum_master.png"
-        },
-        {
-            "nombre": "OpenAI",
-            "imagen": "openai.png"
-        },
-        {
-            "nombre": "El Monolito ",
-            "imagen": "monolito.png"
-        },
-        {
-            "nombre": "El Release Manager",
-            "imagen": "releasemanager.png"
-        },
-        {
             "nombre": "El Product Designer ",
             "imagen": "productDesigner.png"
         },
         {
-            "nombre": "Producción",
-            "imagen": "produccion.png"
-        },
-        {
-            "nombre": "La Daily",
-            "imagen": "daily.png"
-        },
-        {
-            "nombre": "Holding",
-            "imagen": "holding.png"
-        }
-    ],
-    [
-        {
-            "nombre": "El Despliegue",
-            "imagen": "despliegue.png"
-        },
-        {
-            "nombre": "Blue Voz ",
-            "imagen": "blue_voz.png"
+            "nombre": "El Rapid prototyping",
+            "imagen": "rappidprototyping.png"
         },
         {
             "nombre": "El Andromeda",
@@ -127,28 +61,32 @@ const tablerosGenerados = [
             "imagen": "plataforma.png"
         },
         {
-            "nombre": "La Program Manager",
-            "imagen": "program_manager.png"
+            "nombre": "Las Entradillas ",
+            "imagen": "entradillas.png"
         },
         {
             "nombre": "Producción",
             "imagen": "produccion.png"
         },
         {
+            "nombre": "El Monolito ",
+            "imagen": "monolito.png"
+        },
+        {
             "nombre": "El What if",
             "imagen": "whatif.png"
         },
         {
-            "nombre": "La Personalidad ",
-            "imagen": "personalidad.png"
+            "nombre": "Los TyC",
+            "imagen": "tyc.png"
         },
         {
             "nombre": "Blue",
             "imagen": "blue.png"
         },
         {
-            "nombre": "El App Owner",
-            "imagen": "appowner.png"
+            "nombre": "El modelo",
+            "imagen": "modelo.png"
         },
         {
             "nombre": "La Instalación",
@@ -159,548 +97,610 @@ const tablerosGenerados = [
             "imagen": "bug.png"
         },
         {
-            "nombre": "El Team UX ",
-            "imagen": "teamUX.png"
-        },
-        {
-            "nombre": "El ScrumMaster",
-            "imagen": "scrum_master.png"
-        },
-        {
-            "nombre": "Las Entradillas ",
-            "imagen": "entradillas.png"
-        },
-        {
-            "nombre": "El ProductOwner",
-            "imagen": "productowner.png"
-        }
-    ],
-    [
-        {
-            "nombre": "El modelo",
-            "imagen": "modelo.png"
-        },
-        {
-            "nombre": "La Instalación",
-            "imagen": "instalacion.png"
-        },
-        {
-            "nombre": "La Daily",
-            "imagen": "daily.png"
-        },
-        {
-            "nombre": "La Review",
-            "imagen": "review.png"
-        },
-        {
-            "nombre": "Los TyC",
-            "imagen": "tyc.png"
-        },
-        {
-            "nombre": "Conversa",
-            "imagen": "conversa.png"
-        },
-        {
-            "nombre": "La Plataforma",
-            "imagen": "plataforma.png"
-        },
-        {
-            "nombre": "El Despliegue",
-            "imagen": "despliegue.png"
-        },
-        {
-            "nombre": "El Release Manager",
-            "imagen": "releasemanager.png"
-        },
-        {
             "nombre": "La Deuda Técnica",
             "imagen": "dt.png"
-        },
-        {
-            "nombre": "La Documentación",
-            "imagen": "documentación.png"
-        },
-        {
-            "nombre": "El Team UX ",
-            "imagen": "teamUX.png"
-        },
-        {
-            "nombre": "El figma",
-            "imagen": "figma.png"
-        },
-        {
-            "nombre": "La Program Manager",
-            "imagen": "program_manager.png"
-        },
-        {
-            "nombre": "Las Entradillas ",
-            "imagen": "entradillas.png"
-        },
-        {
-            "nombre": "La Personalidad ",
-            "imagen": "personalidad.png"
-        }
-    ],
-    [
-        {
-            "nombre": "La Deuda Técnica",
-            "imagen": "dt.png"
-        },
-        {
-            "nombre": "La Daily",
-            "imagen": "daily.png"
-        },
-        {
-            "nombre": "La Program Manager",
-            "imagen": "program_manager.png"
-        },
-        {
-            "nombre": "El Rapid prototyping",
-            "imagen": "rappidprototyping.png"
-        },
-        {
-            "nombre": "La Personalidad ",
-            "imagen": "personalidad.png"
-        },
-        {
-            "nombre": "El modelo",
-            "imagen": "modelo.png"
-        },
-        {
-            "nombre": "Los TyC",
-            "imagen": "tyc.png"
-        },
-        {
-            "nombre": "La Review",
-            "imagen": "review.png"
-        },
-        {
-            "nombre": "Las Derivaciones",
-            "imagen": "derivaciones.png"
-        },
-        {
-            "nombre": "La PR",
-            "imagen": "pr.png"
-        },
-        {
-            "nombre": "Blue",
-            "imagen": "blue.png"
-        },
-        {
-            "nombre": "El Andromeda",
-            "imagen": "andromeda.png"
-        },
-        {
-            "nombre": "El Monolito ",
-            "imagen": "monolito.png"
-        },
-        {
-            "nombre": "Conversa",
-            "imagen": "conversa.png"
-        },
-        {
-            "nombre": "La Documentación",
-            "imagen": "documentación.png"
-        },
-        {
-            "nombre": "El What if",
-            "imagen": "whatif.png"
-        }
-    ],
-    [
-        {
-            "nombre": "El Monolito ",
-            "imagen": "monolito.png"
-        },
-        {
-            "nombre": "Los TyC",
-            "imagen": "tyc.png"
-        },
-        {
-            "nombre": "La Deuda Técnica",
-            "imagen": "dt.png"
-        },
-        {
-            "nombre": "El What if",
-            "imagen": "whatif.png"
-        },
-        {
-            "nombre": "Conversa",
-            "imagen": "conversa.png"
-        },
-        {
-            "nombre": "El Release Manager",
-            "imagen": "releasemanager.png"
-        },
-        {
-            "nombre": "Holding",
-            "imagen": "holding.png"
-        },
-        {
-            "nombre": "La Program Manager",
-            "imagen": "program_manager.png"
-        },
-        {
-            "nombre": "La Documentación",
-            "imagen": "documentación.png"
-        },
-        {
-            "nombre": "El Funcional ",
-            "imagen": "funcional.png"
-        },
-        {
-            "nombre": "El Team UX ",
-            "imagen": "teamUX.png"
-        },
-        {
-            "nombre": "Blue",
-            "imagen": "blue.png"
-        },
-        {
-            "nombre": "La Daily",
-            "imagen": "daily.png"
-        },
-        {
-            "nombre": "El Despliegue",
-            "imagen": "despliegue.png"
-        },
-        {
-            "nombre": "El ScrumMaster",
-            "imagen": "scrum_master.png"
-        },
-        {
-            "nombre": "El Bug",
-            "imagen": "bug.png"
-        }
-    ],
-    [
-        {
-            "nombre": "El Bug",
-            "imagen": "bug.png"
-        },
-        {
-            "nombre": "Las Derivaciones",
-            "imagen": "derivaciones.png"
-        },
-        {
-            "nombre": "La Instalación",
-            "imagen": "instalacion.png"
-        },
-        {
-            "nombre": "El Jira",
-            "imagen": "jira.png"
-        },
-        {
-            "nombre": "El Rapid prototyping",
-            "imagen": "rappidprototyping.png"
-        },
-        {
-            "nombre": "El Warrom ",
-            "imagen": "warrom.png"
-        },
-        {
-            "nombre": "El Monolito ",
-            "imagen": "monolito.png"
-        },
-        {
-            "nombre": "El Avatar",
-            "imagen": "avatar.png"
-        },
-        {
-            "nombre": "Producción",
-            "imagen": "produccion.png"
-        },
-        {
-            "nombre": "OpenAI",
-            "imagen": "openai.png"
-        },
-        {
-            "nombre": "Blue Voz ",
-            "imagen": "blue_voz.png"
-        },
-        {
-            "nombre": "Los TyC",
-            "imagen": "tyc.png"
-        },
-        {
-            "nombre": "La Personalidad ",
-            "imagen": "personalidad.png"
-        },
-        {
-            "nombre": "La PR",
-            "imagen": "pr.png"
         },
         {
             "nombre": "El App Owner",
             "imagen": "appowner.png"
         },
         {
-            "nombre": "Blue",
-            "imagen": "blue.png"
+            "nombre": "El Team UX ",
+            "imagen": "teamUX.png"
         }
     ],
     [
         {
-            "nombre": "El Warrom ",
-            "imagen": "warrom.png"
+            "nombre": "El ProductOwner",
+            "imagen": "productowner.png"
         },
         {
-            "nombre": "El Avatar",
-            "imagen": "avatar.png"
-        },
-        {
-            "nombre": "Conversa",
-            "imagen": "conversa.png"
+            "nombre": "El Rapid prototyping",
+            "imagen": "rappidprototyping.png"
         },
         {
             "nombre": "El What if",
             "imagen": "whatif.png"
         },
         {
-            "nombre": "Las Entradillas ",
-            "imagen": "entradillas.png"
-        },
-        {
-            "nombre": "La Program Manager",
-            "imagen": "program_manager.png"
-        },
-        {
-            "nombre": "El ProductOwner",
-            "imagen": "productowner.png"
-        },
-        {
-            "nombre": "El Funcional ",
-            "imagen": "funcional.png"
-        },
-        {
-            "nombre": "El figma",
-            "imagen": "figma.png"
-        },
-        {
-            "nombre": "El ScrumMaster",
-            "imagen": "scrum_master.png"
-        },
-        {
-            "nombre": "La Personalidad ",
-            "imagen": "personalidad.png"
-        },
-        {
-            "nombre": "El ChatBot",
-            "imagen": "chatbot.png"
-        },
-        {
-            "nombre": "OpenAI",
-            "imagen": "openai.png"
-        },
-        {
-            "nombre": "La Documentación",
-            "imagen": "documentación.png"
-        },
-        {
-            "nombre": "Producción",
-            "imagen": "produccion.png"
-        },
-        {
-            "nombre": "Los TyC",
-            "imagen": "tyc.png"
-        }
-    ],
-    [
-        {
-            "nombre": "El Rapid prototyping",
-            "imagen": "rappidprototyping.png"
-        },
-        {
-            "nombre": "El Product Designer ",
-            "imagen": "productDesigner.png"
-        },
-        {
-            "nombre": "Conversa",
-            "imagen": "conversa.png"
-        },
-        {
-            "nombre": "El Warrom ",
-            "imagen": "warrom.png"
-        },
-        {
-            "nombre": "El ProductOwner",
-            "imagen": "productowner.png"
-        },
-        {
-            "nombre": "El App Owner",
-            "imagen": "appowner.png"
-        },
-        {
-            "nombre": "El figma",
-            "imagen": "figma.png"
-        },
-        {
-            "nombre": "La Review",
-            "imagen": "review.png"
-        },
-        {
-            "nombre": "La Daily",
-            "imagen": "daily.png"
-        },
-        {
             "nombre": "El modelo",
             "imagen": "modelo.png"
-        },
-        {
-            "nombre": "Blue Voz ",
-            "imagen": "blue_voz.png"
-        },
-        {
-            "nombre": "El Monolito ",
-            "imagen": "monolito.png"
-        },
-        {
-            "nombre": "El Avatar",
-            "imagen": "avatar.png"
-        },
-        {
-            "nombre": "OpenAI",
-            "imagen": "openai.png"
-        },
-        {
-            "nombre": "Las Entradillas ",
-            "imagen": "entradillas.png"
-        },
-        {
-            "nombre": "Los TyC",
-            "imagen": "tyc.png"
-        }
-    ],
-    [
-        {
-            "nombre": "El ChatBot",
-            "imagen": "chatbot.png"
-        },
-        {
-            "nombre": "Blue",
-            "imagen": "blue.png"
-        },
-        {
-            "nombre": "La Plataforma",
-            "imagen": "plataforma.png"
-        },
-        {
-            "nombre": "El Rapid prototyping",
-            "imagen": "rappidprototyping.png"
         },
         {
             "nombre": "El becario ",
             "imagen": "becario.png"
         },
         {
-            "nombre": "La Usabilidad ",
-            "imagen": "usabilidad.png"
-        },
-        {
-            "nombre": "La Review",
-            "imagen": "review.png"
-        },
-        {
-            "nombre": "El ScrumMaster",
-            "imagen": "scrum_master.png"
-        },
-        {
-            "nombre": "El Monolito ",
-            "imagen": "monolito.png"
+            "nombre": "Los TyC",
+            "imagen": "tyc.png"
         },
         {
             "nombre": "El Jira",
             "imagen": "jira.png"
         },
         {
+            "nombre": "El ChatBot",
+            "imagen": "chatbot.png"
+        },
+        {
             "nombre": "Holding",
             "imagen": "holding.png"
         },
         {
-            "nombre": "Producción",
-            "imagen": "produccion.png"
-        },
-        {
-            "nombre": "Los TyC",
-            "imagen": "tyc.png"
-        },
-        {
-            "nombre": "El Team UX ",
-            "imagen": "teamUX.png"
-        },
-        {
-            "nombre": "El Release Manager",
-            "imagen": "releasemanager.png"
-        },
-        {
-            "nombre": "La Instalación",
-            "imagen": "instalacion.png"
-        }
-    ],
-    [
-        {
-            "nombre": "El App Owner",
-            "imagen": "appowner.png"
-        },
-        {
-            "nombre": "El Despliegue",
-            "imagen": "despliegue.png"
-        },
-        {
-            "nombre": "La Daily",
-            "imagen": "daily.png"
-        },
-        {
-            "nombre": "La Personalidad ",
-            "imagen": "personalidad.png"
-        },
-        {
-            "nombre": "Blue",
-            "imagen": "blue.png"
-        },
-        {
-            "nombre": "El Rapid prototyping",
-            "imagen": "rappidprototyping.png"
-        },
-        {
-            "nombre": "Producción",
-            "imagen": "produccion.png"
-        },
-        {
-            "nombre": "El ProductOwner",
-            "imagen": "productowner.png"
-        },
-        {
-            "nombre": "El Warrom ",
-            "imagen": "warrom.png"
-        },
-        {
-            "nombre": "El Release Manager",
-            "imagen": "releasemanager.png"
-        },
-        {
-            "nombre": "El Team UX ",
-            "imagen": "teamUX.png"
+            "nombre": "La Documentación",
+            "imagen": "documentación.png"
         },
         {
             "nombre": "El Funcional ",
             "imagen": "funcional.png"
         },
         {
-            "nombre": "Conversa",
-            "imagen": "conversa.png"
+            "nombre": "El Monolito ",
+            "imagen": "monolito.png"
         },
         {
-            "nombre": "La PR",
-            "imagen": "pr.png"
+            "nombre": "La Review",
+            "imagen": "review.png"
+        },
+        {
+            "nombre": "El Warrom ",
+            "imagen": "warrom.png"
+        },
+        {
+            "nombre": "Blue",
+            "imagen": "blue.png"
+        },
+        {
+            "nombre": "Producción",
+            "imagen": "produccion.png"
+        }
+    ],
+    [
+        {
+            "nombre": "El Release Manager",
+            "imagen": "releasemanager.png"
+        },
+        {
+            "nombre": "La Review",
+            "imagen": "review.png"
+        },
+        {
+            "nombre": "El Team UX ",
+            "imagen": "teamUX.png"
+        },
+        {
+            "nombre": "El App Owner",
+            "imagen": "appowner.png"
+        },
+        {
+            "nombre": "El ProductOwner",
+            "imagen": "productowner.png"
+        },
+        {
+            "nombre": "El Bug",
+            "imagen": "bug.png"
+        },
+        {
+            "nombre": "Las Entradillas ",
+            "imagen": "entradillas.png"
         },
         {
             "nombre": "La Deuda Técnica",
             "imagen": "dt.png"
         },
         {
-            "nombre": "La Review",
-            "imagen": "review.png"
+            "nombre": "El Monolito ",
+            "imagen": "monolito.png"
+        },
+        {
+            "nombre": "La Daily",
+            "imagen": "daily.png"
+        },
+        {
+            "nombre": "Conversa",
+            "imagen": "conversa.png"
+        },
+        {
+            "nombre": "Holding",
+            "imagen": "holding.png"
+        },
+        {
+            "nombre": "El figma",
+            "imagen": "figma.png"
+        },
+        {
+            "nombre": "El Despliegue",
+            "imagen": "despliegue.png"
+        },
+        {
+            "nombre": "El Product Designer ",
+            "imagen": "productDesigner.png"
+        },
+        {
+            "nombre": "El Jira",
+            "imagen": "jira.png"
+        }
+    ],
+    [
+        {
+            "nombre": "El Avatar ",
+            "imagen": "avatar.png"
+        },
+        {
+            "nombre": "La Program Manager",
+            "imagen": "program_manager.png"
+        },
+        {
+            "nombre": "El What if",
+            "imagen": "whatif.png"
+        },
+        {
+            "nombre": "La PR",
+            "imagen": "pr.png"
+        },
+        {
+            "nombre": "El Funcional ",
+            "imagen": "funcional.png"
+        },
+        {
+            "nombre": "OpenAI",
+            "imagen": "openai.png"
+        },
+        {
+            "nombre": "El Warrom ",
+            "imagen": "warrom.png"
+        },
+        {
+            "nombre": "El modelo",
+            "imagen": "modelo.png"
+        },
+        {
+            "nombre": "El Monolito ",
+            "imagen": "monolito.png"
+        },
+        {
+            "nombre": "Blue",
+            "imagen": "blue.png"
+        },
+        {
+            "nombre": "Conversa",
+            "imagen": "conversa.png"
+        },
+        {
+            "nombre": "El Team UX ",
+            "imagen": "teamUX.png"
+        },
+        {
+            "nombre": "El figma",
+            "imagen": "figma.png"
+        },
+        {
+            "nombre": "El Product Designer ",
+            "imagen": "productDesigner.png"
+        },
+        {
+            "nombre": "El Despliegue",
+            "imagen": "despliegue.png"
+        },
+        {
+            "nombre": "Holding",
+            "imagen": "holding.png"
+        }
+    ],
+    [
+        {
+            "nombre": "El Funcional ",
+            "imagen": "funcional.png"
+        },
+        {
+            "nombre": "Blue",
+            "imagen": "blue.png"
+        },
+        {
+            "nombre": "La Deuda Técnica",
+            "imagen": "dt.png"
+        },
+        {
+            "nombre": "El modelo",
+            "imagen": "modelo.png"
+        },
+        {
+            "nombre": "La Plataforma",
+            "imagen": "plataforma.png"
+        },
+        {
+            "nombre": "Conversa",
+            "imagen": "conversa.png"
+        },
+        {
+            "nombre": "El Monolito ",
+            "imagen": "monolito.png"
+        },
+        {
+            "nombre": "OpenAI",
+            "imagen": "openai.png"
+        },
+        {
+            "nombre": "El figma",
+            "imagen": "figma.png"
+        },
+        {
+            "nombre": "Blue Voz ",
+            "imagen": "blue_voz.png"
+        },
+        {
+            "nombre": "La Daily",
+            "imagen": "daily.png"
+        },
+        {
+            "nombre": "La Instalación",
+            "imagen": "instalacion.png"
+        },
+        {
+            "nombre": "El Release Manager",
+            "imagen": "releasemanager.png"
+        },
+        {
+            "nombre": "El becario ",
+            "imagen": "becario.png"
+        },
+        {
+            "nombre": "El ScrumMaster",
+            "imagen": "scrum_master.png"
+        },
+        {
+            "nombre": "El What if",
+            "imagen": "whatif.png"
+        }
+    ],
+    [
+        {
+            "nombre": "La Documentación",
+            "imagen": "documentación.png"
+        },
+        {
+            "nombre": "La Usabilidad ",
+            "imagen": "usabilidad.png"
+        },
+        {
+            "nombre": "La PR",
+            "imagen": "pr.png"
+        },
+        {
+            "nombre": "El ScrumMaster",
+            "imagen": "scrum_master.png"
+        },
+        {
+            "nombre": "La Program Manager",
+            "imagen": "program_manager.png"
+        },
+        {
+            "nombre": "El ChatBot",
+            "imagen": "chatbot.png"
+        },
+        {
+            "nombre": "El Funcional ",
+            "imagen": "funcional.png"
+        },
+        {
+            "nombre": "El App Owner",
+            "imagen": "appowner.png"
+        },
+        {
+            "nombre": "El What if",
+            "imagen": "whatif.png"
+        },
+        {
+            "nombre": "El modelo",
+            "imagen": "modelo.png"
+        },
+        {
+            "nombre": "Las Entradillas ",
+            "imagen": "entradillas.png"
+        },
+        {
+            "nombre": "Producción",
+            "imagen": "produccion.png"
+        },
+        {
+            "nombre": "La Instalación",
+            "imagen": "instalacion.png"
+        },
+        {
+            "nombre": "El ProductOwner",
+            "imagen": "productowner.png"
+        },
+        {
+            "nombre": "El Desarrollador",
+            "imagen": "Desarrollador.png"
+        },
+        {
+            "nombre": "El Bug",
+            "imagen": "bug.png"
+        }
+    ],
+    [
+        {
+            "nombre": "La Instalación",
+            "imagen": "instalacion.png"
+        },
+        {
+            "nombre": "El figma",
+            "imagen": "figma.png"
+        },
+        {
+            "nombre": "La PR",
+            "imagen": "pr.png"
+        },
+        {
+            "nombre": "La Daily",
+            "imagen": "daily.png"
+        },
+        {
+            "nombre": "El Product Designer ",
+            "imagen": "productDesigner.png"
+        },
+        {
+            "nombre": "El Avatar ",
+            "imagen": "avatar.png"
+        },
+        {
+            "nombre": "El What if",
+            "imagen": "whatif.png"
+        },
+        {
+            "nombre": "El Release Manager",
+            "imagen": "releasemanager.png"
+        },
+        {
+            "nombre": "El Team UX ",
+            "imagen": "teamUX.png"
+        },
+        {
+            "nombre": "Producción",
+            "imagen": "produccion.png"
+        },
+        {
+            "nombre": "Blue",
+            "imagen": "blue.png"
+        },
+        {
+            "nombre": "Las Derivaciones",
+            "imagen": "derivaciones.png"
+        },
+        {
+            "nombre": "La Usabilidad ",
+            "imagen": "usabilidad.png"
+        },
+        {
+            "nombre": "La Deuda Técnica",
+            "imagen": "dt.png"
+        },
+        {
+            "nombre": "El Monolito ",
+            "imagen": "monolito.png"
+        },
+        {
+            "nombre": "El Warrom ",
+            "imagen": "warrom.png"
+        }
+    ],
+    [
+        {
+            "nombre": "El Funcional ",
+            "imagen": "funcional.png"
+        },
+        {
+            "nombre": "El Avatar ",
+            "imagen": "avatar.png"
+        },
+        {
+            "nombre": "El Team UX ",
+            "imagen": "teamUX.png"
+        },
+        {
+            "nombre": "El Despliegue",
+            "imagen": "despliegue.png"
+        },
+        {
+            "nombre": "El Monolito ",
+            "imagen": "monolito.png"
+        },
+        {
+            "nombre": "El ScrumMaster",
+            "imagen": "scrum_master.png"
+        },
+        {
+            "nombre": "El figma",
+            "imagen": "figma.png"
+        },
+        {
+            "nombre": "El becario ",
+            "imagen": "becario.png"
+        },
+        {
+            "nombre": "La Program Manager",
+            "imagen": "program_manager.png"
+        },
+        {
+            "nombre": "OpenAI",
+            "imagen": "openai.png"
+        },
+        {
+            "nombre": "El Bug",
+            "imagen": "bug.png"
+        },
+        {
+            "nombre": "La PR",
+            "imagen": "pr.png"
+        },
+        {
+            "nombre": "La Usabilidad ",
+            "imagen": "usabilidad.png"
+        },
+        {
+            "nombre": "El Desarrollador",
+            "imagen": "Desarrollador.png"
+        },
+        {
+            "nombre": "Conversa",
+            "imagen": "conversa.png"
+        },
+        {
+            "nombre": "La Documentación",
+            "imagen": "documentación.png"
+        }
+    ],
+    [
+        {
+            "nombre": "El Jira",
+            "imagen": "jira.png"
+        },
+        {
+            "nombre": "El becario ",
+            "imagen": "becario.png"
+        },
+        {
+            "nombre": "Holding",
+            "imagen": "holding.png"
+        },
+        {
+            "nombre": "El Avatar ",
+            "imagen": "avatar.png"
+        },
+        {
+            "nombre": "El Rapid prototyping",
+            "imagen": "rappidprototyping.png"
+        },
+        {
+            "nombre": "El What if",
+            "imagen": "whatif.png"
+        },
+        {
+            "nombre": "La Program Manager",
+            "imagen": "program_manager.png"
+        },
+        {
+            "nombre": "El ProductOwner",
+            "imagen": "productowner.png"
+        },
+        {
+            "nombre": "Los TyC",
+            "imagen": "tyc.png"
+        },
+        {
+            "nombre": "El App Owner",
+            "imagen": "appowner.png"
+        },
+        {
+            "nombre": "El figma",
+            "imagen": "figma.png"
+        },
+        {
+            "nombre": "El Product Designer ",
+            "imagen": "productDesigner.png"
+        },
+        {
+            "nombre": "El ChatBot",
+            "imagen": "chatbot.png"
+        },
+        {
+            "nombre": "El Despliegue",
+            "imagen": "despliegue.png"
+        },
+        {
+            "nombre": "El Warrom ",
+            "imagen": "warrom.png"
+        },
+        {
+            "nombre": "El Funcional ",
+            "imagen": "funcional.png"
+        }
+    ],
+    [
+        {
+            "nombre": "El Bug",
+            "imagen": "bug.png"
+        },
+        {
+            "nombre": "El figma",
+            "imagen": "figma.png"
+        },
+        {
+            "nombre": "Los TyC",
+            "imagen": "tyc.png"
+        },
+        {
+            "nombre": "El ScrumMaster",
+            "imagen": "scrum_master.png"
+        },
+        {
+            "nombre": "OpenAI",
+            "imagen": "openai.png"
+        },
+        {
+            "nombre": "Las Derivaciones",
+            "imagen": "derivaciones.png"
+        },
+        {
+            "nombre": "El Avatar ",
+            "imagen": "avatar.png"
+        },
+        {
+            "nombre": "La PR",
+            "imagen": "pr.png"
+        },
+        {
+            "nombre": "La Plataforma",
+            "imagen": "plataforma.png"
+        },
+        {
+            "nombre": "Blue",
+            "imagen": "blue.png"
+        },
+        {
+            "nombre": "El Release Manager",
+            "imagen": "releasemanager.png"
+        },
+        {
+            "nombre": "El Desarrollador",
+            "imagen": "Desarrollador.png"
+        },
+        {
+            "nombre": "Holding",
+            "imagen": "holding.png"
+        },
+        {
+            "nombre": "El Rapid prototyping",
+            "imagen": "rappidprototyping.png"
+        },
+        {
+            "nombre": "La Program Manager",
+            "imagen": "program_manager.png"
+        },
+        {
+            "nombre": "El Product Designer ",
+            "imagen": "productDesigner.png"
         }
     ]
 ]
@@ -1045,7 +1045,9 @@ async function descargarTodosLosTableros() {
     const botonSimular = document.getElementById("btn-simular");
     const botonesTablero = [...document.querySelectorAll(".btn-descargar-tablero")];
     botonZip.disabled = true;
-    botonGenerar.disabled = true;
+    if(botonGenerar) {
+        botonGenerar.disabled = true;
+    }
     botonSimular.disabled = true;
     botonesTablero.forEach((boton) => {
         boton.disabled = true;
@@ -1069,7 +1071,9 @@ async function descargarTodosLosTableros() {
         console.error("No se pudieron descargar todos los tableros.", error);
         actualizarEstadoSimulacion("No se pudieron descargar los tableros en ZIP.");
     } finally {
+    if(botonGenerar) {
         botonGenerar.disabled = false;
+    }
         botonSimular.disabled = tablerosDeJuego.length === 0;
         botonZip.disabled = tablerosDeJuego.length === 0;
         botonesTablero.forEach((boton) => {
@@ -1139,7 +1143,7 @@ function cargarTablerosGuardados() {
     try {
         const datosGuardados = localStorage.getItem(CLAVE_TABLEROS);
         if (datosGuardados === null) {
-            return [];
+            return tablerosGenerados;
         }
 
         const tableros = JSON.parse(datosGuardados);
@@ -1166,7 +1170,7 @@ function cargarTablerosGuardados() {
 }
 
 // 5. Listener para generar tableros y ejecutar la partida.
-document.getElementById("btn-generar").addEventListener("click", () => {
+document.getElementById("btn-generar")?.addEventListener("click", () => {
     tablerosDeJuego = generarTablerosUnicos(misPalabras, 10);
     renderizarTableros(tablerosDeJuego);
     document.getElementById("btn-simular").disabled = false;
@@ -1198,7 +1202,9 @@ document.getElementById("btn-simular").addEventListener("click", async () => {
     const botonGenerar = document.getElementById("btn-generar");
     const botonZip = document.getElementById("btn-descargar-todos");
     botonSimular.disabled = true;
-    botonGenerar.disabled = true;
+    if(botonGenerar) {
+        botonGenerar.disabled = true;
+    }
     botonZip.disabled = true;
     document.querySelectorAll(".grid-4x4 img.carta-cantada").forEach((imagen) => {
         imagen.classList.remove("carta-cantada");
@@ -1210,7 +1216,9 @@ document.getElementById("btn-simular").addEventListener("click", async () => {
         await reproducirSimulacion(simularLoteria(misPalabras, jugadores));
     } finally {
         botonSimular.disabled = false;
-        botonGenerar.disabled = false;
+        if(botonGenerar) {
+            botonGenerar.disabled = false;
+        }
         botonZip.disabled = false;
     }
 });
