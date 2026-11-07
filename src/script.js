@@ -7,7 +7,7 @@ const misPalabras = [
     { nombre: "El Bug", imagen: "bug.png" },
     { nombre: "El ChatBot", imagen: "chatbot.png" },
     { nombre: "Blue", imagen: "blue.png" },
-    { nombre: "El ProductOwner", imagen: "productowner.png" },
+    { nombre: "El ProductOwner", imagen: "productOwner.png" },
     { nombre: "El ScrumMaster", imagen: "scrum_master.png" },
     { nombre: "El Andromeda", imagen: "andromeda.png" },
     { nombre: "La Review", imagen: "review.png" },
