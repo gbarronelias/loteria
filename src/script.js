@@ -13,7 +13,7 @@ const misPalabras = [
     { nombre: "La Review", imagen: "review.png" },
     { nombre: "La Daily", imagen: "daily.png" },
     { nombre: "La Deuda Técnica", imagen: "dt.png" },
-    { nombre: "El Desarrollador", imagen: "Desarrollador.png" },
+    { nombre: "El Desarrollador", imagen: "desarrollador.png" },
     { nombre: "Las Derivaciones", imagen: "derivaciones.png" },
     { nombre: "Los TyC", imagen: "tyc.png" },
     { nombre: "La Instalación", imagen: "instalacion.png" },
@@ -112,7 +112,7 @@ const tablerosGenerados = [
     [
         {
             "nombre": "El ProductOwner",
-            "imagen": "productowner.png"
+            "imagen": "productOwner.png"
         },
         {
             "nombre": "El Rapid prototyping",
@@ -194,7 +194,7 @@ const tablerosGenerados = [
         },
         {
             "nombre": "El ProductOwner",
-            "imagen": "productowner.png"
+            "imagen": "productOwner.png"
         },
         {
             "nombre": "El Bug",
@@ -428,11 +428,11 @@ const tablerosGenerados = [
         },
         {
             "nombre": "El ProductOwner",
-            "imagen": "productowner.png"
+            "imagen": "productOwner.png"
         },
         {
             "nombre": "El Desarrollador",
-            "imagen": "Desarrollador.png"
+            "imagen": "desarrollador.png"
         },
         {
             "nombre": "El Bug",
@@ -560,7 +560,7 @@ const tablerosGenerados = [
         },
         {
             "nombre": "El Desarrollador",
-            "imagen": "Desarrollador.png"
+            "imagen": "desarrollador.png"
         },
         {
             "nombre": "Conversa",
@@ -602,7 +602,7 @@ const tablerosGenerados = [
         },
         {
             "nombre": "El ProductOwner",
-            "imagen": "productowner.png"
+            "imagen": "productOwner.png"
         },
         {
             "nombre": "Los TyC",
@@ -684,7 +684,7 @@ const tablerosGenerados = [
         },
         {
             "nombre": "El Desarrollador",
-            "imagen": "Desarrollador.png"
+            "imagen": "desarrollador.png"
         },
         {
             "nombre": "Holding",
