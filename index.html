@@ -10,11 +10,25 @@
 
     <div class="container">
         <h2>Generador Automático de Lotería (4x4)</h2>
-        <p>Presiona el botón para generar tableros únicos basados en tu lista de palabras.</p>
+        <p>Genera tableros únicos y simula una partida completa de lotería con ellos.</p>
         
         <button id="btn-generar">Generar Tableros</button>
+        <button id="btn-descargar-todos" type="button" disabled>Descargar todos (ZIP)</button>
+        <button id="btn-simular" disabled>Simular partida</button>
 
-        <div id="contenedor-tableros" class="tableros-wrapper"></div>
+        <main class="juego-layout">
+            <div id="contenedor-tableros" class="tableros-wrapper"></div>
+            <aside id="resultado-simulacion" class="resultado-simulacion" aria-live="polite">
+                <h3>Simulación</h3>
+                <p id="estado-simulacion">Genera los tableros para comenzar.</p>
+                <div id="carta-actual" class="carta-actual">
+                    <img id="imagen-carta-actual" alt="" hidden>
+                    <span id="nombre-carta-actual">Esperando el primer sorteo</span>
+                </div>
+                <h3>Cartas cantadas</h3>
+                <ol id="lista-cartas"></ol>
+            </aside>
+        </main>
     </div>
 
     <script src="src/script.js"></script>
